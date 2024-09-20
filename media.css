@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@media(max-width:1200px){
+    .container{
+        height:auto;
+        width:100%;
+    }
+    .smallheader{
+        width:90%;
+    }
+    .div2{
+        width:6%;
+    }
+    .smallmain{
+        width:90%;
+    }
+    .section{
+        width:95%;
+    }
+    .ordiv1{
+        width:42%;
+    }
+    .ordiv2{
+        width:42%;
+    }
+    .upperdiv {
+       width:85%;
+    
+    }
+    .small-last-section{
+        width:95%;
+    }
+    .small-last-section{
+        width:85%;
+    }
+    .small-leftpsw{
+        width:80%;
+    }
+    .small-rightpsw{
+        width:80%;
+    }
+     .button-section{
+        width:85%;
+     }
+    .button-section button{
+        width:50%;
+    }
+    .continue-line{
+        width:85%;
+    }
+    .app{
+        width:85%;
+    }
+    .policy-line{
+        width:85%;
+    }
+
+}
+@media(max-width:991px){
+    .container{
+        height:auto;
+        width:100%;
+    }
+    .smallheader{
+        width:90%;
+    }
+    .div1 h1{
+        font-size: 2.8rem;
+    }
+    .div1 p{
+        font-size: 16px;
+    }
+    .div2{
+        height:68%;
+        width:7%;
+    }
+    .upperdiv{
+        width:100%;
+    }
+    .ordiv1{
+        width:46%;
+    }
+    .ordiv2{
+        width:46%;
+    }
+    .small-last-section{
+        width:95%;
+    }
+    .small-leftpsw{
+        width:85%;
+    }
+    .small-rightpsw{
+        width:85%;
+    }
+    .button-section{
+        width:95%;
+    }
+    .continue-line{
+        width:95%;
+    }
+    .app{
+        width:95%;
+    }
+    .policy-line{
+        width:95%;
+    }
+}
+
+@media(max-width:768px){
+    .smallheader{
+        width:95%;
+    }
+    .div2{
+        width:8%;
+        height:68%;
+    }
+    #anchorid{
+        font-size: 12px;
+    }
+    .smallmain{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:30px;
+     }
+     .leftside{
+        width:90%;
+     }
+     .upperdiv{
+        width:87%;
+     }
+     .lowerdiv{
+        margin-top:8px;
+     }
+     .upperdiv p{
+        font-size: 20px;
+
+     }
+     .card{
+        width:160px;
+        height:160px;
+     }
+     #anchorid{
+        font-size: 16px;
+     }
+     .smphoto{
+        height:60px;
+        width:60px;
+     }
+     .iconplus{
+        height:60px;
+        width:60px;
+     }
+     .para-1{
+        font-size:16px;
+     }
+     .rightside{
+        width:90%;
+        margin-top:20px;
+        
+     }
+     .small-rightside{
+        display:flex;
+        flex-direction: column;
+        gap:15px;
+    }
+    .text{
+        width:60%;
+        height:60px;
+        background-color: white;
+        border-radius:5px;
+    }
+    .text p{
+        margin-top:4px;
+    }
+    .audio{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:15px;
+    }
+    .logopause{
+        height:55px;
+        width:55px;
+    }
+    .logopause i{
+        font-size: 24px;
+    }
+    .credit{
+        margin-top:10px;
+    }
+    #anchor2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .section{
+        margin-top:40px;
+    }
+    .ordiv1{
+        width:42%;
+    }
+    .ordiv2{
+        width:42%;
+    }
+    .button-section button{
+        width:65%;
+    }
+    .policy-line p{
+        padding-block:50px;
+    }
+}
+
+@media(max-width:580px){
+    .div1{
+        width:100%;
+    }
+    .div1 h1{
+        font-size:2.5rem;
+    }
+    .div1 p{
+        font-size:14px;
+    }
+    .div2{
+        display:none;
+    }
+    .main{
+        width:100%;
+    }
+    .smallmain{
+        width:100%;
+    }
+    .leftside{
+       width:95%;
+    }
+    .small-last-section{
+        display:flex;
+        flex-direction: column;
+        width:95%;
+        gap:20px;
+    }
+    .leftpsw{
+       width:85%;
+       margin-top:20px;
+    }
+    .rightpsw{
+        width:85%;
+        display:flex;
+       
+        justify-content: end;
+    }
+    .button-section button{
+        width:73%;
+    }
+}
+
+@media(max-width:1400px){
+    .smallmain{
+       display:flex;
+       gap:30px;
+    }
+}
